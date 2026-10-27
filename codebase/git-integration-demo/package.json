@@ -1,0 +1,19 @@
+{
+  "name": "git-integration-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal feasibility demo for Git multi-platform read-only integration (no DB)",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/sync-demo.ts",
+    "demo": "tsx src/sync-demo.ts"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
