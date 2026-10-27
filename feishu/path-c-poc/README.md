@@ -60,7 +60,7 @@ npm run once -- --confirm-public
 
 ## 预期
 
-1. 启动后日志出现 `[ws] starting WSClient` / `WSClient started`（开发者后台须已选长连接订阅）。
+1. 启动后日志出现 `[ws] starting WSClient…`、`[ws] WSClient start() returned…`，连上后还有 `[ws] onReady`（开发者后台须已选长连接订阅）。
 2. Path-C tick 打印 search / 候选 / `me_join ok|fail`。
 3. `me_join` 成功后（或人拉 bot），长连接收到 `[ws] im.chat.member.bot.added_v1 …`（本 POC 只打日志）。
 4. **没有**本地 HTTP webhook 监听端口。
