@@ -1,6 +1,6 @@
 #!/bin/bash
-export FEISHU_APP_ID=cli_aa50e1facdb89bb5
-export FEISHU_APP_SECRET=QzqgDDIKxwbHx7lT4OYExdqVtzHKuBnx
+export FEISHU_APP_ID=cli_*****
+export FEISHU_APP_SECRET=QzqgD*******
 export FEISHU_AUTO_JOIN_QUERY=课题
 export FEISHU_AUTO_JOIN_NAME_ALLOW_REGEX='^课题'
 
