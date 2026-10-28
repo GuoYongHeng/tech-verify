@@ -1,0 +1,23 @@
+{
+  "name": "path-c-poc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Path C Feishu search + me_join POC with WSClient long connection (TypeScript + @larksuiteoapi/node-sdk)",
+  "type": "module",
+  "scripts": {
+    "start": "tsx server.ts",
+    "dry-run": "tsx run_once.ts --dry-run",
+    "once": "tsx run_once.ts"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@larksuiteoapi/node-sdk": "^1.55.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
